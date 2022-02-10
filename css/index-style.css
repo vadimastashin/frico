@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    font-size: 1em;
+}
+
+/* Хлебные крошки */
+
+.breadcrumb-item a {
+    color: #FF1428;
+    font-weight: 600;
+} 
+
+.breadcrumb-item.active {
+    color: #000;
+    font-weight: 600;
+}
+
+/* Информационный блок справа от главного фото */
+
+.product-availability a {
+    font-weight: bold; 
+    color:#FF1428;
+}
+
+.product-availability a:hover {
+    color: #000;
+}
+
+.btn.purchase {
+    background-color: #b40a18;
+    color: #fff;
+}
+
+.btn.purchase:hover {
+    background-color: #fff;
+    color: #b40a18;
+    border-color: #b40a18;
+}
+
+.bi {
+    font-size: 1.3em; 
+    font-weight: bold; 
+    color: #7B8486;
+}
+
+.icon-desc, .icon-desc a {
+    color: #7B8486;
+    font-weight: 600;
+}
+
+.bi:hover, .icon-desc a:hover {
+    color: #FF1428;
+    text-decoration: none;
+}
+
+.consult-link a{
+    color: #2e1d1f;
+    font-weight: 700;
+}
+
+.consult-link a:hover {
+    color: #FF1428;
+    text-decoration: none;
+}
+
+/* Табы с описанием товара */
+
+ul.nav-tabs li.nav-item a.nav-link {
+    min-width: 50px;
+    color:  #FF1428;
+    border-color:#FF1428;
+}
+
+ul.nav-tabs li.nav-item a.nav-link:active {
+    background-color: #FF1428;
+    border-color: #FF1428;
+    color: #fff;
+} 
+
